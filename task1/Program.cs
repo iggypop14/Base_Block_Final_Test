@@ -13,10 +13,8 @@ void TreeDigitsArray(string[] array1, string[] array2)
     int count = 0;
     for (int i = 0; array1[i].Length <= 3; i++)
     {
-        {
         array2[count] = array1[i];
         count++;
-        }
     }
 }
 void PrintArray(string[] array)
