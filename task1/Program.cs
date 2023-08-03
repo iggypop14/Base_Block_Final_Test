@@ -28,5 +28,11 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 TreeDigitsArray(array1, array2);
+System.Console.WriteLine();
+System.Console.WriteLine("Массив 1: ");
+System.Console.WriteLine();
 PrintArray(array1);
+System.Console.WriteLine();
+System.Console.WriteLine("Массив 2: ");
 PrintArray(array2);
+System.Console.WriteLine();
